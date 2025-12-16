@@ -1,0 +1,18 @@
+{
+  "name": "praxis-scraper",
+  "version": "1.0.0",
+  "description": "Web scraper to get reports from Praxis",
+  "main": "index.mjs",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.772.0",
+    "@sparticuz/chromium": "^133.0.0",
+    "dotenv": "^16.4.7",
+    "puppeteer": "^24.4.0"
+  }
+}
